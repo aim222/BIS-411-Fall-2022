@@ -11,8 +11,10 @@ str(AWI)
 p <- ggplot(data=AWI, mapping = aes(x = Work_Year, y = Growth_in_AWI))
 p + geom_col()
 a <- p + geom_col()
+
 p + geom_line(color="red")
 b <- p + geom_line(color="red")
+
 a + b
 
 library(patchwork)
